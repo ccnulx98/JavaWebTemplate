@@ -1,0 +1,97 @@
+* {
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+ }
+
+body {
+    background: url('../imgs/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#register {
+    width: 50%;
+    height: 600px;
+    background: #00000060;
+    border: 5px solid black;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 5%;
+    color: #000;
+}
+
+#register .mid label {
+    color: white;
+}
+#register .mid td {
+    color: white;
+}
+
+#register .hello {
+    float: left;
+    margin: 30px;
+    font-size: 18px;
+}
+
+#register .hello > p:first-child{
+    color: burlywood;
+}
+
+#register .hello >p:last-child {
+    color: #fff;
+}
+
+#register .mid {
+    width: 500px;
+    margin-top: 100px;
+    float: left;
+}
+
+table tr>td:first-child {
+    width: 100px;
+    text-align: right;
+    height: 45px;
+    font-size: 18px;
+}
+
+table tr>td:nth-child(2) {
+    padding-left: 50px;
+}
+
+#username,#pwd,#pwd1,#email,#name,#phone,#date,#qq,#age {
+    width: 251px;
+    height: 32px;
+    border: 0;
+    border-bottom: 2px solid #fff;
+    padding-left: 10px;
+    font-size: 15px;
+    background: #ffffff00;
+    color: white;
+}
+
+#validate {
+    height: 32px;
+    width: 100px;
+    border: 0;
+    border-bottom: 2px solid #fff;
+    padding-left: 10px;
+    font-size: 15px;
+    background: #ffffff00;
+}
+
+#check_img {
+    height: 32px;
+    vertical-align: middle;
+}
+
+#submit {
+    height: 32px;
+    width: 100px;
+}
+
+#register .right {
+    float: right;
+    margin: 30px;
+    color: white;
+}
